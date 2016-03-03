@@ -1,6 +1,6 @@
 # The God Tester and the Bastard Implementor
 
-This is a simple pairing exercise based on test-driven development. The idea is simple. The God Tester's goal is to trick the bastard implementor into writing good code, by writing good tests. The Bastard Implementor's goal is to make the tests pass without writing a function that actually solves the problem. Here are some ground rules:
+This is a simple pairing exercise based on test-driven development. The idea is simple. The God Tester's goal is to trick the bastard implementor into writing good code by writing good tests. The Bastard Implementor's goal is to make the tests pass without writing a function that actually solves the problem. Here are some ground rules:
 
 * The tester can only write one test at a time
 * Each test written must fail before the implementor's turn begins
