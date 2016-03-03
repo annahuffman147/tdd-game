@@ -1,0 +1,27 @@
+{
+  "name": "tdd-game",
+  "version": "1.0.0",
+  "description": "The God Tester and the Bastard Implementor",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "example": "mocha example/test.js",
+    "exercise": "mocha excercise/test.js"
+  },
+  "author": "skuttleman@gmail.com",
+  "license": "ISC",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skuttleman/tdd-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skuttleman/tdd-game/issues"
+  },
+  "homepage": "https://github.com/skuttleman/tdd-game#readme"
+}
