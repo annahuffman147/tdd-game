@@ -20,13 +20,11 @@ describe('Palindrome Test', function() {
 
   it('should return true if the tester is clever about his/her input', function() {
     var string = '', mid = Math.floor(Math.random() * 5) + 5;
-    var alphabet = 'abcdefghijklmnopqrstuvwxyz';
-    while (string.length < mid) {
-      string += alphabet[Math.floor(Math.random() * alphabet.length)];
-    }
-    while (mid--) {
-      string += string[mid];
-    }
+    var alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
+
+    while (string.length < mid) string += alphabet[Math.floor(Math.random() * alphabet.length)];
+    while (mid--) string += string[mid];
+
     expect(isPalindrome(string)).to.equal(true);
   });
 

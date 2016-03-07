@@ -1,12 +1,14 @@
 module.exports = function(string) {
-  // if (string == 'radar') return true;
+  // return true;
 
-  // if (string == 'radar') return true;
-  // else return false;
+
+  // return string === 'radar';
+
 
   // if (arguments.length == 0) return undefined;
-  // else if (string == 'radar') return true;
-  // else return false;
+  // else return string === 'radar';
 
-  return string && string == string.split('').reverse().join('');
+
+  if (arguments.length == 0) return undefined;
+  else return string.toLowerCase() === string.toLowerCase().split('').reverse().join('');
 };

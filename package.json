@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "example": "mocha example/test.js",
-    "exercise": "mocha excercise/test.js"
+    "exercise": "mocha exercise/test.js || echo \"You have failing tests!\""
   },
   "author": "skuttleman@gmail.com",
   "license": "ISC",
